@@ -1,159 +1,78 @@
-%------------------------------------
-% Dario Taraborelli
-% Typesetting your academic CV in LaTeX
-%
-% URL: http://nitens.org/taraborelli/cvtex
-% DISCLAIMER: This template is provided for free and without any guarantee 
-% that it will correctly compile on your system if you have a non-standard  
-% configuration.
-% Some rights reserved: http://creativecommons.org/licenses/by-sa/3.0/
-%------------------------------------
-
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
 
-\documentclass[10pt, a4paper]{article}
+\documentclass[10pt, a4paper]{cv}
 \usepackage{fontspec} 
-
-% DOCUMENT LAYOUT
-\usepackage{geometry} 
-\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
-\setlength\parindent{0in}
-
-% FONTS
-\usepackage[usenames,dvipsnames]{xcolor}
-\usepackage{xunicode}
-\usepackage{xltxtra}
-\defaultfontfeatures{Mapping=tex-text}
-%\setromanfont [Ligatures={Common}, Numbers={OldStyle}, Variant=01]{Linux Libertine O}
-%\setmonofont[Scale=0.8]{Monaco}
-%%% modified by Karol Kozioł for ShareLaTeX use
-\setmainfont[
-  Ligatures={Common}, Numbers={OldStyle}, Variant=01,
-  BoldFont=LinLibertine_RB.otf,
-  ItalicFont=LinLibertine_RI.otf,
-  BoldItalicFont=LinLibertine_RBI.otf
-]{LinLibertine_R.otf}
-\setmonofont[Scale=0.8]{DejaVuSansMono.ttf}
-
-% ---- CUSTOM COMMANDS
-\chardef\&="E050
-\newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
-\newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
-\newcommand{\doi}[1]{\href{#1}{\scriptsize\textsc{[doi]}}}
-% ---- MARGIN YEARS
-\usepackage{marginnote}
-\newcommand{\amper{}}{\chardef\amper="E0BD }
-\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
-\renewcommand*{\raggedleftmarginnote}{}
-\setlength{\marginparsep}{7pt}
-\reversemarginpar
-
-% HEADINGS
-\usepackage{sectsty} 
-\usepackage[normalem]{ulem} 
-\sectionfont{\mdseries\upshape\Large}
-\subsectionfont{\mdseries\scshape\normalsize} 
-\subsubsectionfont{\mdseries\upshape\large} 
-
-% PDF SETUP
-% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
-\usepackage[%dvipdfm, 
-bookmarks, colorlinks, breaklinks, 
-% ---- FILL IN HERE THE TITLE AND AUTHOR
-	pdftitle={Jason Wang - cv},
-	pdfauthor={Jason Wang}
-]{hyperref}  
-\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} 
 
 % DOCUMENT
 \begin{document}
-{\LARGE Jason Wang}\\[1cm]
- University of Toronto\\
-Einstein Drive\\
-Princeton, N.J. \texttt{08540}
-U.S.A.\\[.2cm]
-Phone: \texttt{609-734-8000}\\
-Fax: \texttt{609-924-8399}\\[.2cm]
-email: \href{mailto:a.einstein@ias.edu}{a.einstein@ias.edu}\\
-\textsc{url}: \href{http://www.ias.edu/spfeatures/einstein/}{http://www.ias.edu/spfeatures/einstein/}\\ 
-\vfill
- Born:  March 12, 1879---Ulm, Germany\\
-Nationality:  German/American
+
+\name{Jason Wang}
+
+Phone: \texttt{647-879-4660} \hfill
+GitHub: \href{https://github.com/Vuwij}{https://github.com/Vuwij}\\
+Email: \href{mailto:jia\_shen.wang@mail.utoronto.ca}{jia\_shen.wang@mail.utoronto.ca}\hfill
+Website: \href{http://www.vuwij.com}{http://www.vuwij.com}\\
 
 %%\hrule
-\section*{Current position}
-\emph{Emeritus Professor}, Institute for Advanced Study, Princeton
-
-%%\hrule
-\section*{Areas of specialization}
- Physics • Relativity theory
-
-%%\hrule
-\section*{Appointments held}
-\noindent
-\years{1903-1908}Swiss Patent Office, Bern\\
-\years{1908-1911}University of Bern\\
-\years{1911-1912}University of Zürich\\
-\years{1912-1914}Charles University of Prague\\
-\years{1914-1932}Prussian Academy of Sciences, Berlin\\
-\years{1920-1930}University of Leiden\\
-\years{1932-1955}Institute for Advanced Study, Princeton
-
-%\hrule
 \section*{Education}
+\years{2014-2019}\textbf{Department of Electrical and Computer Engineering} \hfill University of Toronto\\
+\emph{Bachelor of Computer Engineering} \small{\textsc{(GPA 3.1)}}\\[0.1mm]
+\small Dean's Honours List (April 2015, December 2016)
+
+%%\hrule
+\section*{Technical Skills}
+\textbf{Languages:} C/C++, C\#, VB, Java, Ruby, Python, Verilog, Assembly, HTML/CSS, MatLAB, JavaScript, JQuery, LaTeX, PHP, XML, SQL, PowerShell\\[0.2em]
+\textbf{Software:} Altium, Dreamweaver, ModelSim, MultiSim, SolidWorks, Quartus, Unity, Visual Studio\\[0.2em]
+\textbf{Courses:} Computer Organization, Operating Systems, Algorithms and Data Structures, Probability and Applications, Fundamentals of Optics, Dynamic Systems and Control
+
+%%\hrule
+\section*{Professional Experience}\noindent
+
+	\years{2016 May}\textbf{Software Developer Intern} \hfill Bell Canada
+	\begin{itemize}
+		\item Developed and unit tested callflow orchestration scripts for a Genesys callcenter system
+		\item Developed an end to end regression testing system with Empirix Hammer
+		\item Developed an audio file tracker that tracks every audio file played in a call center
+	\end{itemize}
+	
+	\years{2016 Jan}\textbf{Undergraduate Researcher} \hfill UHN Department of Rehabilitation
+	\begin{itemize}
+		\item Researched a device which measures obstructions on city pavement
+		\item Designed a optical/mechanical device that traces bumps on the sidewalk
+	\end{itemize}
+	
+	\years{2015 Sept}\textbf{Design Center Assistant} \hfill University of Toronto
+	\begin{itemize}
+		\item Assisted students for signing digital laboratory equipment
+	\end{itemize}
+
+\section*{Academic Experience}
+
+\subsection*{Engineering Student Groups}\noindent
+
+	\years{2015-17}\textbf{Robot Soccer Lead} \hfill \emph{\href{http://www.utra.ca}{University of Toronto Robotics Association}}
+	\begin{itemize}
+		\item Using OpenCV with ROS (Robotic Operating System) to localize markers and the robot's position in 3D
+		\item Working with Strategy team to create AI for the 3D Simulated Robocup
+	\end{itemize}
+	
+	\years{2015-16}\textbf{NETtalk and Communications Lead} \hfill \emph{\href{http://hackeracademy.org}{Hacker Academy}}
+	\begin{itemize}
+		\item Facilitated and Delivered NETtalks to students interested in a new field of technology
+		\item Communicated with Sponsors such as GE to organize the DeepHealth Hackathon, University of Toronto's first healthcare and AI themed hackathon.
+	\end{itemize}
+	
+	\years{2015-16}\textbf{VP Communications} \hfill \emph{\href{http://www.utihiopenschool.ca}{University of Toronto Institute of Healthcare Improvement}}
+	\begin{itemize}
+		\item Designed new website which effectively increased the Quality Improvement Program students from 30 to 134
+	\end{itemize}
+	
+\subsection*{Design Projects}
 \noindent
-\years{1900}\textsc{MSc} in Physics, ETH Zürich\\
-\years{1900}\textsc{PhD} in Physics, ETH Zürich
-
-%\hrule
-\section*{Grants, honors \& awards}
-\noindent
-\years{1921}Nobel Prize in Physics, Nobel Foundation
-
-\section*{Publications \& talks}
-
-\subsection*{Journal articles}
-\noindent
-\years{1901}Einstein, Albert (1901), “Folgerungen aus den Capillaritätserscheinungen (Conclusions Drawn from the Phenomena of Capillarity)", \emph{Annalen der Physik} 4: 513\\
-\years{1905a}Einstein, Albert (1905), “On a Heuristic Viewpoint Concerning the Production and Transformation of Light", \emph{Annalen der Physik} 17: 132–148.\\
-\years{1905b}Einstein, Albert (1905), A new determination of molecular dimensions. \emph{PhD dissertation}.\\
-\years{1905c}Einstein, Albert (1905), “On the Motion—Required by the Molecular Kinetic Theory of Heat—of Small Particles Suspended in a Stationary Liquid", \emph{Annalen der Physik} 17: 549–560. 
-\years{1905d}Einstein, Albert (1905), “On the Electrodynamics of Moving Bodies", \emph{Annalen der Physik} 17: 891–921.\\
-\years{1905e}Einstein, Albert (1905), “Does the Inertia of a Body Depend Upon Its Energy Content?", \emph{Annalen der Physik} 18: 639–641.\\
-\years{1915}Einstein, Albert (1915), “Die Feldgleichungen der Gravitation (The Field Equations of Gravitation)", \emph{Koniglich Preussische Akademie der Wissenschaften}: 844–847\\
-\years{1917a}Einstein, Albert (1917), “Kosmologische Betrachtungen zur allgemeinen Relativitätstheorie (Cosmological Considerations in the General Theory of Relativity)", \emph{Koniglich Preussische Akademie der Wissenschaften}\\
-\years{1917b}Einstein, Albert (1917), “Zur Quantentheorie der Strahlung (On the Quantum Mechanics of Radiation)", \emph{Physikalische Zeitschrift} 18: 121–128
-
-\subsection*{Books}
-\noindent
-\years{1954}Einstein, Albert (1954), \emph{Ideas and Opinions}, New York: Random House, ISBN 0-517-00393-7
-
-\subsection*{Newspaper articles}
-\noindent
-\years{1940}Einstein, Albert, et al. (December 4, 1948), “To the editors", \emph{New York Times}\\
-\years{1949}Einstein, Albert (May 1949), “Why Socialism?", \emph{Monthly Review}.
-
-\section*{Teaching}
-
-...
-
-%\hrule
-\section*{Service to the profession}
-
-...
-%\vspace{1cm}
-\vfill{}
-%\hrulefill
-
-\begin{center}
-{\scriptsize  Last updated: \today\- •\- 
-% ---- PLEASE LEAVE THIS BACKLINK FOR ATTRIBUTION AS PER CC-LICENSE
-Typeset in \href{http://nitens.org/taraborelli/cvtex}{
-%\fontspec{Times New Roman}
-\XeTeX }\\
-% ---- FILL IN THE FULL URL TO YOUR CV HERE
-\href{http://nitens.org/taraborelli/cvtex}{http://nitens.org/taraborelli/cvtex}}
-\end{center}
-
+\years{2014-Now}\textbf{\href{http://vuwij.com/index.php/macabre}{Macabre III}} - \emph{Middle age pixellated role playing game made using Unity Engine}\\
+\years{2016 April}\textbf{\href{https://github.com/lpahlavi/EdgeDetector}{Edge Detector}} - \emph{Camera edge-detecting software made with NIOS Assembly using 2DFFT filters}\\
+\years{2016 Nov}\textbf{\href{http://vuwij.com/index.php/projects1/80-programming-projects/93-3d-hardware-wireframe-renderer}{Wireframe Drawer}} - \emph{Simple wireframe drawing hardware made with Verilog HDL}\\
+\years{2016 Feb}\textbf{\href{http://skule.ca/view-clubs/}{Student Club Index Searcher}} - \emph{Engineering student club search bar made with Wordpress, PHP AJAX and SQL}\\
+\years{2016 Jan}\textbf{\href{https://github.com/Abhiseshan/saberwars}{SaberWars}} - \emph{Used Unity's TCP/IP capability with Android Phones to create multiplayer for the HackTheNorth hackathon. Got in 4th place.}
 \end{document}
