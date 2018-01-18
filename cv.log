@@ -1,7 +1,6 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  22 OCT 2017 05:23
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  18 JAN 2018 16:41
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **cv.tex
 (./cv.tex
@@ -907,57 +906,57 @@ Package marginnote Info: right page because not two side mode on input line 66.
 Package marginnote Info: xpos seems to be 85.35826pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 66.
 Package marginnote Info: Margin note 1.7 is on absolute page 1
-(marginnote)              on input line 72.
-Package marginnote Info: right page because not two side mode on input line 72.
+(marginnote)              on input line 73.
+Package marginnote Info: right page because not two side mode on input line 73.
 
 Package marginnote Info: xpos seems to be 85.35826pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 72.
+(marginnote)             \marginnoteleftadjust ignored on input line 73.
 Package marginnote Info: Margin note 1.8 is on absolute page 2
-(marginnote)              on input line 80.
-Package marginnote Info: right page because not two side mode on input line 80.
-
-Package marginnote Info: xpos seems to be 85.35826pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 80.
-Package marginnote Info: Margin note 1.9 is on absolute page 2
 (marginnote)              on input line 81.
 Package marginnote Info: right page because not two side mode on input line 81.
 
 Package marginnote Info: xpos seems to be 85.35826pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 81.
-Package marginnote Info: Margin note 1.10 is on absolute page 2
+Package marginnote Info: Margin note 1.9 is on absolute page 2
 (marginnote)              on input line 82.
 Package marginnote Info: right page because not two side mode on input line 82.
 
 Package marginnote Info: xpos seems to be 85.35826pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 82.
-Package marginnote Info: Margin note 1.11 is on absolute page 2
+Package marginnote Info: Margin note 1.10 is on absolute page 2
 (marginnote)              on input line 83.
 Package marginnote Info: right page because not two side mode on input line 83.
 
 Package marginnote Info: xpos seems to be 85.35826pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 83.
-Package marginnote Info: Margin note 1.12 is on absolute page 2
+Package marginnote Info: Margin note 1.11 is on absolute page 2
 (marginnote)              on input line 84.
 Package marginnote Info: right page because not two side mode on input line 84.
 
 Package marginnote Info: xpos seems to be 85.35826pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 84.
+Package marginnote Info: Margin note 1.12 is on absolute page 2
+(marginnote)              on input line 85.
+Package marginnote Info: right page because not two side mode on input line 85.
+
+Package marginnote Info: xpos seems to be 85.35826pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 85.
 [1
 
 ]
-Overfull \hbox (11.13542pt too wide) in paragraph at lines 87--89
+Overfull \hbox (11.13542pt too wide) in paragraph at lines 88--90
 \TU/LinLibertine_R.otf(0)/bx/n/10 Hobbies: \TU/LinLibertine_R.otf(0)/m/n/10 Fis
 hing, Road Cycling, Piano (Grade 10 Certificate), Ping Pong(High school champio
 n), Chess(High
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
  (./cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 90.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 90.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 90.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 91.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 91.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
  21899 strings out of 493005
