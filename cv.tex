@@ -6,86 +6,69 @@
 \usepackage{geometry}
 \geometry{
 	a4paper,
-	left=30mm,
+	left=25mm,
 	top=20mm,
-	right=30mm,
+	right=25mm,
 	bottom=20mm,
 }
-
+\pagenumbering{gobble}
+\renewcommand*{\name}{\fontsize{24}{40}\mdseries\upshape}
 % DOCUMENT
 \begin{document}
 
+\begin{center}
 \name{Jason Wang}
+\end{center}
 
 Phone: \texttt{647-879-4660} \hfill
 GitHub: \href{https://github.com/Vuwij}{https://github.com/Vuwij}\\
 Email: \href{mailto:jiashen.wang@mail.utoronto.ca}{jiashen.wang@mail.utoronto.ca}\hfill
-Website: \href{http://individual.utoronto.ca/vuwij/}{http://individual.utoronto.ca/vuwij/}
+Website: \href{http://vuwij.github.io}{http://vuwij.github.io}
 
 %%\hrule
 \section*{Education}
-\years{2014-2019}\textbf{Department of Electrical and Computer Engineering} \hfill University of Toronto\\
-\emph{Bachelor of Computer Engineering, Minor in Robotics} \small{\textsc{(GPA 3.84)}}\\[0.1mm]
-\small Dean's Honours List
+\years{2015-2020}\textbf{Department of Electrical and Computer Engineering} \hfill University of Toronto\\
+\emph{Bachelor of Computer Engineering, Minor in Robotics and Business} \small{\textsc{(3rd Year GPA 3.75)}}\\[0.1mm]
+\small Dean's Honours List, NSERC USRA Research Award
 
 %%\hrule
 \section*{Technical Skills}
-\textbf{Languages:} C/C++, C\#, VB, Java, Ruby, Python, Verilog, Assembly, HTML/CSS, MatLAB, JavaScript, JQuery, LaTeX, PHP, XML, SQL, PowerShell\\[0.2em]
-\textbf{Software/Frameworks:} Altium Designer, Autodesk Fusion, Dreamweaver, ModelSim, MultiSim, ROS, OpenCV, Tensorflow, SolidWorks, Quartus, Unity3D, Visual Studio\\[0.2em]
-\textbf{Courses:} Introduction to Optics, Algorithms and Data Structures, Computer Networks, Communication Systems, Dynamic Systems and Control, Inference Algorithms and Machine Learning, Operating Systems, Real Time Computer Control, Robot Modelling and Control, Probability and Applications 
-
+\textbf{Programming Languages:} C/C++, C\#, Matlab, Python, Mathematica, \LaTeX, Verilog/Assembly, HTML/CSS\\[0.2em]
+\textbf{Software Frameworks:} ROS, Docker, OpenCV, Tensorflow, Unity Engine\\[0.2em]
+\textbf{Relevant Courses:} Robot Modelling and Control, Inference Algorithms and Machine Learning, Control Systems, Digital Control, Algorithms and Data Structures, Computer Networks I, Operating Systems \\
+\textbf{Languages:} English (Native), Chinese (Native), Japanese (Intermediate), French (Beginner)
 %%\hrule
 \section*{Work and Research Experience}\noindent
+	\years{2018 -2019}\textbf{Robotics Software Engineering Intern} \hfill \href{https://www.rapyuta-robotics.com}{Rapyuta Robotics}
+	\begin{itemize}
+		\item Created a full simulation and integration testing system of a multi-robot warehouse delivery system. The robots coordinate with workers to fulfill orders retrieved from an inventory management system. Used ROS and C++ to write the simulation framework. Used docker and cloud infrastructure to simulate 30 robots communicating and fulfilling orders on the cloud.
+		\item Working with the ALICA robot state machine engine, and used Google ORTools to optimize and simulate human movement to find the optimum human movement which reduces the cost.
+	\end{itemize}
+
+	\years{2018 May - }\textbf{Quadcopter Vision and Control Research (\href{https://github.com/utiasSTARS/hummingbird_ws}{Github})} \hfill \href{http://www.starslab.ca}{University of Toronto Institute for Aerospace Studies}
+	\begin{itemize}
+		\item Worked on the computer vision of a tailsitter drone with the capability to dock into other tailsitter drones in mid-flight. Used Apriltag tracking to obtain relative localization in order to plan the path for the drone to dock into the other drone. Supervised by \href{http://stars.utias.utoronto.ca/~jkelly/}{Professor Jonathan Kelly}.
+	\end{itemize}
 
 	\years{2017 May}\textbf{Medical Imaging Research Intern} \hfill Sunnybrook Hospital
 	\begin{itemize}
-		\item Wrote Matlab code and embedded C/C++ software for signal processing for a new biomedical imaging device using Ultra-Wideband Radar
-		\item Used detection theory to estimate tissue layers under 2.5cm of depth
+		\item Created a \href{https://github.com/Vuwij/CPRadar}{Matlab} signal processing simulation for a new biomedical imaging device using ultra-wideband radar to assist heart surgery. Replicated results from a paper on radar imaging and presented results at University of Toronto's annual undergraduate research conference.
 	\end{itemize}
-	
-	\years{2016 May}\textbf{Software Developer Intern} \hfill Bell Canada
-	\begin{itemize}
-		\item Developed and unit-tested callflow orchestration scripts for a Genesys Callcenter system
-		\item Developed an end to end regression testing system using Empirix Hammer for 16 Lines of Business and over 1000 toll free numbers
-		\item Developed an Audio File Monitor that tracks all audio files played in all call centers assisting the testing team
-	\end{itemize}
-	
-	\years{2016 Jan}\textbf{Rehabilitation Research Student} \hfill UHN Department of Rehabilitation
-	\begin{itemize}
-		\item Researched a device which measures obstructions on city pavement
-		\item Designed a optical/mechanical device that traces bumps on the sidewalk
-	\end{itemize}
-
-\subsection*{Presentations}\noindent
-\years{2017 Aug 9}\textit{"Cardiac Wall Motion Detection using Ultra-Wideband Radar during cardiac catheterization"}, \\Undergraduate Engineering Research Day, University of Toronto
 
 \section*{Extracurricular Activities and Projects}
 
 \subsection*{Engineering Student Groups}\noindent
 
-	\years{2015-17}\textbf{RoboSoccer Software Lead - Computer Vision} \hfill \emph{\href{http://www.utra.ca}{University of Toronto Robotics Association}}
+	\years{2016-Now}\textbf{Founder and Software Lead} (\href{https://github.com/utra-robosoccer/soccer_ws} {Github}) \hfill \emph{\href{http://www.utrahumanoid.ca}{University of Toronto Robotics Association}}
 	\begin{itemize}
-		\item Designed and created object localization and object recognition using ROS (Robotic Operating System), Matlab, OpenCV, Darknet
-	    \href{https://github.com/utra-robosoccer/soccerbot}{(Github)}
-		\item Working with Control team to create Supervised learning and Control Models for the Robocup \href{http://wiki.robocup.org/Soccer_Simulation_League}{simulation league} in 2018 under the supervision of our faculty advisor \href{http://www.utias.utoronto.ca/research/space-robotics/}{Professor D’Eleuterio}
+		\item In 2017, formed a team of 20-30 members working on mechanical, electrical, software and control design of a humanoid soccer robot. Our faculty advisors are \href{http://stars.utias.utoronto.ca/~jkelly/}{Prof. Jonathan Kelly} and \href{http://www.utias.utoronto.ca/research/space-robotics/}{Prof. D’Eleuterio}.
+		\item For robot control, used simple trajectory generation with constant linear feedback to keep the robot balanced. For computer vision, used OpenCV to integrate line detection with particle filtering to localize the robot. Used darknet for tracking the soccer ball. \href{https://github.com/utra-robosoccer/soccer_ws}{Source Code}
+		\item Attended the 2018 robocup in Montreal as the only Canadian team in the small sized league consisting of purely undergraduate students. \href{http://utrahumanoid.ca}{Website}
 	\end{itemize}
 	
-	\years{2015-17}\textbf{Lead/President} \hfill \emph{\href{http://hackeracademy.org}{Hacker Academy}}
+	\years{2016-17}\textbf{Team Lead} \hfill \emph{\href{http://hackeracademy.org}{Hacker Academy}}
 	\begin{itemize}
-		\item Facilitated and Delivered NETtalks to students, focusing on computer security
-		\item Communicated with Sponsors such as GE and created the Machine Learning challenge for the \href{http://deephealth.ca}{DeepHealth Hackathon}, University of Toronto's first healthcare and AI themed hackathon.
+		\item Created the challenge for the \href{https://www.facebook.com/groups/1126158850825448/}{DeepHealth Hackathon}, University of Toronto's first healthcare and machine learning hackathon. Around 80 graduate and undergraduate students attended the challenge.
 	\end{itemize}
-	
-\subsection*{Selected Design Projects}
-\noindent
-\years{2016-Now}\textbf{\href{http://github.com/utra-robosoccer/soccerbot}{Soccerbot}} - \emph{Robot team that plays soccer, technologies include SLAM, ROS, OpenCV - In development}\\
-\years{2014-Now}\textbf{\href{http://vuwij.com/index.php/macabre}{Macabre III}} - \emph{Middle age pixellated role playing game made using Unity Engine}\\
-\years{2016 April}\textbf{\href{https://github.com/lpahlavi/EdgeDetector}{Edge Detector}} - \emph{Camera edge-detecting software made with NIOS Assembly using 2DFFT filters}\\
-\years{2016 Nov}\textbf{\href{http://vuwij.com/index.php/projects1/80-programming-projects/93-3d-hardware-wireframe-renderer}{Wireframe Drawer}} - \emph{Simple wireframe drawing hardware made with Verilog HDL}\\
-\years{2016 Feb}\textbf{\href{http://skule.ca/view-clubs/}{Student Club Index Searcher}} - \emph{Engineering student club search bar made with Wordpress, PHP AJAX and SQL}
-
-\subsection*{Interests/Hobbies}
-\textbf{Interests:} Computer Vision, Deep Learning, Reinforcement Learning, Humanoid Robot Modelling and Control, Quantum Physics, Amazon Deep Learning Cloud, Game Development\\
-\textbf{Hobbies:} Fishing, Road Cycling, Piano (Grade 10 Certificate), Ping Pong(High school champion), Chess(High school champion)
 
 \end{document}
