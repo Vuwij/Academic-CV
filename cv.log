@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.5.9)  9 MAY 2020 22:14
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.5.9)  10 JUN 2020 05:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -930,61 +930,79 @@ Package marginnote Info: right page because not two side mode on input line 30.
 
 Package marginnote Info: xpos seems to be 71.13188pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 30.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 39.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 39.
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
+
+ []
+
 Package marginnote Info: Margin note 1.2 is on absolute page 1
-(marginnote)              on input line 45.
-Package marginnote Info: right page because not two side mode on input line 45.
+(marginnote)              on input line 33.
+Package marginnote Info: right page because not two side mode on input line 33.
 
 Package marginnote Info: xpos seems to be 71.13188pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 45.
+(marginnote)             \marginnoteleftadjust ignored on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 42.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 42.
 Package marginnote Info: Margin note 1.3 is on absolute page 1
-(marginnote)              on input line 50.
-Package marginnote Info: right page because not two side mode on input line 50.
+(marginnote)              on input line 48.
+Package marginnote Info: right page because not two side mode on input line 48.
 
 Package marginnote Info: xpos seems to be 71.13188pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 50.
+(marginnote)             \marginnoteleftadjust ignored on input line 48.
 Package marginnote Info: Margin note 1.4 is on absolute page 1
-(marginnote)              on input line 56.
-Package marginnote Info: right page because not two side mode on input line 56.
+(marginnote)              on input line 53.
+Package marginnote Info: right page because not two side mode on input line 53.
 
 Package marginnote Info: xpos seems to be 71.13188pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 56.
+(marginnote)             \marginnoteleftadjust ignored on input line 53.
 Package marginnote Info: Margin note 1.5 is on absolute page 1
-(marginnote)              on input line 77.
-Package marginnote Info: right page because not two side mode on input line 77.
+(marginnote)              on input line 58.
+Package marginnote Info: right page because not two side mode on input line 58.
 
 Package marginnote Info: xpos seems to be 71.13188pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 77.
+(marginnote)             \marginnoteleftadjust ignored on input line 58.
 Package marginnote Info: Margin note 1.6 is on absolute page 1
-(marginnote)              on input line 84.
-Package marginnote Info: right page because not two side mode on input line 84.
+(marginnote)              on input line 65.
+Package marginnote Info: right page because not two side mode on input line 65.
 
 Package marginnote Info: xpos seems to be 71.13188pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 84.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
- [1
+(marginnote)             \marginnoteleftadjust ignored on input line 65.
+[1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
+Package marginnote Info: Margin note 2.1 is on absolute page 2
+(marginnote)              on input line 86.
+Package marginnote Info: right page because not two side mode on input line 86.
+
+Package marginnote Info: xpos seems to be 71.13188pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 86.
+Package marginnote Info: Margin note 2.2 is on absolute page 2
+(marginnote)              on input line 93.
+Package marginnote Info: right page because not two side mode on input line 93.
+
+Package marginnote Info: xpos seems to be 71.13188pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 93.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
+ [2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
  (./cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 89.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 89.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 98.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 98.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 32 ({)
+### simple group (level 1) entered at line 35 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 22938 strings out of 494988
- 419686 string characters out of 6178639
- 504726 words of memory out of 5000000
- 26650 multiletter control sequences out of 15000+600000
+ 22940 strings out of 494988
+ 419708 string characters out of 6178639
+ 502758 words of memory out of 5000000
+ 26652 multiletter control sequences out of 15000+600000
  531581 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 53i,9n,85p,10474b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,9n,85p,10474b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on cv.pdf (1 page).
+Output written on cv.pdf (2 pages).
