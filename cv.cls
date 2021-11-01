@@ -22,7 +22,7 @@ BoldFont=LinLibertine_RB.otf,
 ItalicFont=LinLibertine_RI.otf,
 BoldItalicFont=LinLibertine_RBI.otf
 ]{LinLibertine_R.otf}
-\setmonofont[Scale=0.8]{DejaVuSansMono.ttf}
+\setmonofont[Scale=0.9]{DejaVuSansMono.ttf}
 
 % ---- CUSTOM COMMANDS
 \chardef\&="E050
