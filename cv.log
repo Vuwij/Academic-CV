@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.12.13)  22 DEC 2021 00:14
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2023.2.6)  6 FEB 2023 02:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -566,286 +566,6 @@ Package polyglossia Info: Option: English, variant=american.
 )
 Package polyglossia Info: Default language is english.
 
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-farsi.ldf
-File: gloss-farsi.ldf polyglossia: module for farsi
-
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-persian.ldf
-File: gloss-persian.ldf polyglossia: module for persian
-
-(/home/vuwij/texmf/tex/xelatex/bidi/bidi.sty
-Package: bidi 2018/02/22 v32.9 Bidirectional typesetting in plain TeX and LaTeX
-
-
-****************************************************
-* 
-* bidi package (Bidirectional typesetting in
-* plain TeX and LaTeX, using XeTeX engine)
-* 
-* Description: A convenient interface for
-* typesetting bidirectional texts in plain TeX
-* and LaTeX. The package includes adaptations
-* for use with many other commonly-used packages.
-* 
-* Copyright (c) 2009--2018 Vafa Khalighi
-* 
-* v32.9, 2018/02/22
-* 
-* License: LaTeX Project Public License, version
-* 1.3c or higher (your choice)
-* 
-* Location on CTAN: /macros/xetex/latex/bidi
-* 
-* Issue tracker: https://github.com/tex-xet/bidi/issues
-* 
-* Support: persian-tex@tug.org
-* 
-****************************************************
-(/home/vuwij/texmf/tex/xelatex/bidi/biditools.sty
-Package: biditools 2018/02/22 v1.4 Programming tools for bidi package
-\@bidi@envbody=\toks24
-\@bidi@emptytoks=\toks25
-
-
-Package bidi Warning: Patching '\begin' failed!
-(bidi)                '\bidi@AtBeginEnvironment' will not work.
-
-
-Package bidi Warning: Patching '\end' failed!
-(bidi)                '\bidi@AtEndEnvironment' will not work.
-
-
-Package bidi Warning: Patching '\end' failed!
-(bidi)                '\bidi@AfterEndEnvironment' will not work.
-
-\bidi@tempcountb=\count289
-\bidi@temptoksa=\toks26
-\bidi@temptoksb=\toks27
-\bidi@dummies=\count290
-\bidi@are@these@correct=\toks28
-\bidi@toks@lista=\toks29
-\bidi@toks@listb=\toks30
-\bidi@stack@length=\count291
-\bidi@empty@stack=\toks31
-\bidi@looprepeat@depth=\count292
-
-LaTeX Warning: Command \InputIfFileExists  has changed.
-               Check if current package is valid.
-
-) (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
-Package: zref-abspage 2019/11/29 v2.28 Module abspage for zref (HO)
-
-(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-base.sty
-Package: zref-base 2019/11/29 v2.28 Module base for zref (HO)
-Package zref Info: New property list: main on input line 763.
-Package zref Info: New property: default on input line 764.
-Package zref Info: New property: page on input line 765.
-)
-\c@abspage=\count293
-Package zref Info: New property: abspage on input line 66.
-)
-\@bidi@copyins@=\insert252
-
-(/home/vuwij/texmf/tex/xelatex/bidi/latex-xetex-bidi.def
-File: latex-xetex-bidi.def 2018/02/22 v1.3.3 bidi adaptations for `latex.ltx' f
-or XeTeX engine
-\bidi@n@everypar=\toks32
-\bidi@column@check@number=\count294
-
-(/home/vuwij/texmf/tex/xelatex/bidi/footnote-xetex-bidi.def
-File: footnote-xetex-bidi.def 2017/08/09 v1.1 bidi footnote macros for XeTeX en
-gine
-\c@footdir@label=\count295
-\footdir@toks=\toks33
-)
-(/home/vuwij/texmf/tex/xelatex/bidi/article-xetex-bidi.def
-File: article-xetex-bidi.def 2017/06/09 v0.6 bidi adaptations for standard arti
-cle class for XeTeX engine
-)
-(/home/vuwij/texmf/tex/xelatex/bidi/color-xetex-bidi.def
-File: color-xetex-bidi.def 2013/04/08 v0.2 bidi adaptations for color package f
-or XeTeX engine
-LaTeX Info: Redefining \color on input line 46.
-)
-(/home/vuwij/texmf/tex/xelatex/bidi/xcolor-xetex-bidi.def
-File: xcolor-xetex-bidi.def 2013/04/08 v0.2 bidi adaptations for xcolor package
- for XeTeX engine
-LaTeX Info: Redefining \color on input line 45.
-LaTeX Info: Redefining \bidicolor on input line 88.
-)
-(/home/vuwij/texmf/tex/xelatex/bidi/xltxtra-xetex-bidi.def
-File: xltxtra-xetex-bidi.def 2010/07/25 v0.1 bidi adaptations for xltxtra packa
-ge for XeTeX engine
-)
-(/home/vuwij/texmf/tex/xelatex/bidi/graphicx-xetex-bidi.def
-File: graphicx-xetex-bidi.def 2017/06/17 v0.5 bidi adaptations for graphicx pac
-kage for XeTeX engine
-)
-(/home/vuwij/texmf/tex/xelatex/bidi/geometry-xetex-bidi.def
-File: geometry-xetex-bidi.def 2017/01/14 v0.2 bidi adaptations for geometry pac
-kage for XeTeX engine
-)
-(/home/vuwij/texmf/tex/xelatex/bidi/hyperref-xetex-bidi.def
-File: hyperref-xetex-bidi.def 2017/08/09 v1.0 bidi adaptations for hyperref pac
-kage for XeTeX engine
-))
-(/home/vuwij/texmf/tex/xelatex/bidi/loadingorder-xetex-bidi.def
-File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
- last package loaded
-)
-\bidi@digits=\count296
-\bidi@digits@charclass=\XeTeXcharclass10
-\bidi@sepmark@charclass=\XeTeXcharclass11
-)
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/arabicnumbers.sty
-Package: arabicnumbers 2010/03/18 v0.2 Formatting of Arabic and Farsi digits an
-d of Arabic abjad numerals
-)
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/farsical.sty
-Package: farsical 2019/12/12 v0.2 Farsi (jalali) calendar
-
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count297
-\calc@Bcount=\count298
-\calc@Adimen=\dimen186
-\calc@Bdimen=\dimen187
-\calc@Askip=\skip59
-\calc@Bskip=\skip60
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count299
-\calc@Cskip=\skip61
-)
-\JALALI@i=\count300
-\JALALI@y=\count301
-\JALALI@m=\count302
-\JALALI@d=\count303
-\JALALI@latini=\count304
-\JALALI@farsii=\count305
-\JALALI@latinii=\count306
-\JALALI@farsiii=\count307
-\JALALI@latiniii=\count308
-\JALALI@farsiiii=\count309
-\JALALI@latiniv=\count310
-\JALALI@farsiiv=\count311
-\JALALI@latinv=\count312
-\JALALI@farsiv=\count313
-\JALALI@latinvi=\count314
-\JALALI@farsivi=\count315
-\JALALI@latinvii=\count316
-\JALALI@farsivii=\count317
-\JALALI@latinviii=\count318
-\JALALI@farsiviii=\count319
-\JALALI@latinix=\count320
-\JALALI@farsiix=\count321
-\JALALI@latinx=\count322
-\JALALI@farsix=\count323
-\JALALI@latinxi=\count324
-\JALALI@farsixi=\count325
-\JALALI@latinxii=\count326
-\JALALI@farsixii=\count327
-\JALALI@farsixiii=\count328
-\JALALI@temp=\count329
-\JALALI@temptwo=\count330
-\JALALI@tempthree=\count331
-\JALALI@yModHundred=\count332
-\JALALI@thirtytwo=\count333
-\JALALI@dn=\count334
-\JALALI@sn=\count335
-\JALALI@mminusone=\count336
-)
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/hijrical.sty
-Package: hijrical 2010/07/12 v0.2 Islamic calendar
-
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/cal-util.def
-\c@tmpA=\count337
-\c@tmpB=\count338
-\c@tmpC=\count339
-\c@tmpD=\count340
-\c@tmpE=\count341
-\c@tmpF=\count342
-)
-\c@Hijriday=\count343
-\c@Hijrimonth=\count344
-\c@Hijriyear=\count345
-)
-The property list \polyglossia@langsetup contains the pairs (without outer
-braces):
->  {latex/script}  =>  {latin}
->  {latex/lcscript}  =>  {latin}
->  {latex/scripttag}  =>  {}
->  {latex/language}  =>  {Latex}
->  {latex/langtag}  =>  {ENG}
->  {latex/bcp47}  =>  {}
->  {latex/hyphennames}  =>  {english}
->  {latex/direction}  =>  {LR}
->  {latex/hyphenmins}  =>  {2,3}
->  {latex/frenchspacing}  =>  {false}
->  {latex/indentfirst}  =>  {false}
->  {latex/fontsetup}  =>  {true}
->  {latex/envname}  =>  {latex}
->  {latex/babelname}  =>  {latex}
->  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {english/script}  =>  {latin}
->  {english/lcscript}  =>  {latin}
->  {english/scripttag}  =>  {}
->  {english/language}  =>  {English}
->  {english/langtag}  =>  {ENG}
->  {english/bcp47}  =>  {en-US}
->  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
->  {english/direction}  =>  {LR}
->  {english/hyphenmins}  =>  {2,3}
->  {english/frenchspacing}  =>  {false}
->  {english/indentfirst}  =>  {false}
->  {english/fontsetup}  =>  {true}
->  {english/envname}  =>  {english}
->  {english/babelname}  =>  {american}
->  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {persian/script}  =>  {Arabic}
->  {persian/lcscript}  =>  {arabic}
->  {persian/scripttag}  =>  {arab}
->  {persian/language}  =>  {Persian}
->  {persian/langtag}  =>  {FAR}
->  {persian/bcp47}  =>  {fa}
->  {persian/hyphennames}  =>  {nohyphenation}
->  {persian/direction}  =>  {RL}
->  {persian/hyphenmins}  =>  {2,3}
->  {persian/frenchspacing}  =>  {false}
->  {persian/indentfirst}  =>  {false}
->  {persian/fontsetup}  =>  {true}
->  {persian/envname}  =>  {persian}
->  {persian/babelname}  =>  {farsi}
->  {persian/localnumeral}  =>  {farsinumerals}
->  {persian/Localnumeral}  =>  {farsinumerals}.
-))
-
-Package fontspec Info: Could not resolve font "NotoNaskhArabic/I" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Font family 'NotoNaskhArabic(0)' created for font
-(fontspec)             'NotoNaskhArabic' with options
-(fontspec)             [Mapping=tex-text,Script=Arabic].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"NotoNaskhArabic/OT:script=arab;language=dflt;mapping
-=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"NotoNaskhArabic/B/OT:script=arab;language=dflt;mappi
-ng=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"NotoNaskhArabic/BI/OT:script=arab;language=dflt;mapp
-ing=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-
 
 Package geometry Warning: Over-specification in `h'-direction.
     `width' (397.48499pt) is ignored.
@@ -888,7 +608,7 @@ ext;"
 Package: xunicode-addon 2020/02/14 v3.8.1 addon file for xunicode
 \l__xunadd_tmp_coffin=\box56
 \l__xunadd_circle_coffin=\box57
-\l_xunadd_slot_int=\count346
+\l_xunadd_slot_int=\count289
 )
 (/usr/share/texlive/texmf-dist/tex/xelatex/xunicode/xunicode.sty
 File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
@@ -899,73 +619,45 @@ other characters in Unicode lower plane
 File: xunicode-extra.def 2020/02/14 v3.8.1 extra definition for xunicode
 )
 (./cv.aux
-LaTeX Info: Redefining \rmfamily on input line 20.
-LaTeX Info: Redefining \sffamily on input line 20.
-LaTeX Info: Redefining \ttfamily on input line 20.
-
-Package fontspec Info: Could not resolve font "NotoNaskhArabic/I" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Font family 'NotoNaskhArabic(1)' created for font
-(fontspec)             'NotoNaskhArabic' with options
-(fontspec)             [Mapping=tex-text,Script=Arabic,Language=Persian].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"NotoNaskhArabic/OT:script=arab;language=FAR;mapping=
-tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"NotoNaskhArabic/B/OT:script=arab;language=FAR;mappin
-g=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"NotoNaskhArabic/BI/OT:script=arab;language=FAR;mappi
-ng=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-LaTeX Info: Redefining \rmfamily on input line 38.
-LaTeX Info: Redefining \sffamily on input line 38.
-LaTeX Info: Redefining \ttfamily on input line 38.
+LaTeX Info: Redefining \rmfamily on input line 19.
+LaTeX Info: Redefining \sffamily on input line 19.
+LaTeX Info: Redefining \ttfamily on input line 19.
 )
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-0.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+8.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 30.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 30
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 28.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 28
 .
 
 (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1007,68 +699,68 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 30.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 30.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 30.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 30.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 30.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 30.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 30.
-LaTeX Font Info:    Redeclaring math accent \check on input line 30.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 30.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 30.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 30.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 30.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 28.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 28.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 28.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 28.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 28.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 28.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 28.
+LaTeX Font Info:    Redeclaring math accent \check on input line 28.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 28.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 28.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 30.
+(Font)              `operators' in the math version `normal' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/LinLibertine_R.otf(0)/m/n on input l
-ine 30.
+ine 28.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 30.
+(Font)              `operators' in the math version `bold' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/LinLibertine_R.otf(0)/m/n on input 
-line 30.
+line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/LinLibertine_R.otf(0)/m/n --> TU/LinLibertine_R.otf(
-0)/m/n on input line 30.
+0)/m/n on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/LinLibertine_R.otf(0)/m/it on input
- line 30.
+ line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/LinLibertine_R.otf(0)/b/n on input 
-line 30.
+line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 30.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/DejaVuSansMono.ttf(0)/m/n on input 
-line 30.
+line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/LinLibertine_R.otf(0)/m/n --> TU/LinLibertine_R.otf(
-0)/b/n on input line 30.
+0)/b/n on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/LinLibertine_R.otf(0)/b/it on inpu
-t line 30.
+t line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 30.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/DejaVuSansMono.ttf(0)/b/n on input 
-line 30.
+line 28.
 \AtBeginShipoutBox=\box58
-Package hyperref Info: Link coloring ON on input line 30.
+Package hyperref Info: Link coloring ON on input line 28.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1078,76 +770,47 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count347
+\c@section@level=\count290
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
 
 (./cv.out) (./cv.out)
 \@outlinefile=\write3
 \openout3 = `cv.out'.
 
-LaTeX Info: Redefining \rmfamily on input line 30.
-LaTeX Info: Redefining \sffamily on input line 30.
-LaTeX Info: Redefining \ttfamily on input line 30.
+LaTeX Info: Redefining \rmfamily on input line 28.
+LaTeX Info: Redefining \sffamily on input line 28.
+LaTeX Info: Redefining \ttfamily on input line 28.
 LaTeX Font Info:    Font shape `TU/DejaVuSansMono.ttf(0)/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 37.
-Package marginnote Info: Margin note 1.1 is on absolute page 1 on input line 44
+(Font)              scaled to size 9.85492pt on input line 35.
+Package marginnote Info: Margin note 1.1 is on absolute page 1 on input line 43
 .
-Package marginnote Info: right page because not two side mode on input line 44.
+Package marginnote Info: right page because not two side mode on input line 43.
 
-Package marginnote Info: xpos seems to be 71.13188pt on input line 44.
+Package marginnote Info: xpos seems to be 71.13188pt on input line 43.
+Package marginnote Info: Margin note 1.2 is on absolute page 1 on input line 51
+.
+Package marginnote Info: right page because not two side mode on input line 51.
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--48
-[][]
+Package marginnote Info: xpos seems to be 71.13188pt on input line 51.
+Package marginnote Info: Margin note 1.3 is on absolute page 1 on input line 59
+.
+Package marginnote Info: right page because not two side mode on input line 59.
+
+Package marginnote Info: xpos seems to be 71.13188pt on input line 59.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 65.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 65.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 65.
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--75
+
  []
 
-Package marginnote Info: Margin note 1.2 is on absolute page 1 on input line 49
-.
-Package marginnote Info: right page because not two side mode on input line 49.
-
-Package marginnote Info: xpos seems to be 71.13188pt on input line 49.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 63.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 63.
-LaTeX Info: Redefining \rmfamily on input line 65.
-LaTeX Info: Redefining \sffamily on input line 65.
-LaTeX Info: Redefining \ttfamily on input line 65.
-Package marginnote Info: Margin note 1.3 is on absolute page 1 on input line 68
-.
-Package marginnote Info: right page because not two side mode on input line 68.
-
-Package marginnote Info: xpos seems to be 71.13188pt on input line 68.
-Package marginnote Info: Margin note 1.4 is on absolute page 1 on input line 75
-.
-Package marginnote Info: right page because not two side mode on input line 75.
-
-Package marginnote Info: xpos seems to be 71.13188pt on input line 75.
-Package marginnote Info: Margin note 1.5 is on absolute page 1 on input line 80
-.
-Package marginnote Info: right page because not two side mode on input line 80.
-
-Package marginnote Info: xpos seems to be 71.13188pt on input line 80.
-Package marginnote Info: Margin note 1.6 is on absolute page 1 on input line 87
-.
-Package marginnote Info: right page because not two side mode on input line 87.
-
-Package marginnote Info: xpos seems to be 71.13188pt on input line 87.
-[1
-
-]
-Package marginnote Info: Margin note 2.1 is on absolute page 2 on input line 10
-8.
-Package marginnote Info: right page because not two side mode on input line 108
-.
-Package marginnote Info: xpos seems to be 71.13188pt on input line 108.
-Package marginnote Info: Margin note 2.2 is on absolute page 2 on input line 11
-7.
-Package marginnote Info: right page because not two side mode on input line 117
-.
-Package marginnote Info: xpos seems to be 71.13188pt on input line 117.
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1181,47 +844,30 @@ braces):
 >  {english/envname}  =>  {english}
 >  {english/babelname}  =>  {american}
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {persian/script}  =>  {Arabic}
->  {persian/lcscript}  =>  {arabic}
->  {persian/scripttag}  =>  {arab}
->  {persian/language}  =>  {Persian}
->  {persian/langtag}  =>  {FAR}
->  {persian/bcp47}  =>  {fa}
->  {persian/hyphennames}  =>  {nohyphenation}
->  {persian/direction}  =>  {RL}
->  {persian/hyphenmins}  =>  {2,3}
->  {persian/frenchspacing}  =>  {false}
->  {persian/indentfirst}  =>  {false}
->  {persian/fontsetup}  =>  {true}
->  {persian/envname}  =>  {persian}
->  {persian/babelname}  =>  {farsi}
->  {persian/localnumeral}  =>  {farsinumerals}
->  {persian/Localnumeral}  =>  {farsinumerals}.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
+[1
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
  (./cv.aux
-LaTeX Info: Redefining \rmfamily on input line 20.
-LaTeX Info: Redefining \sffamily on input line 20.
-LaTeX Info: Redefining \ttfamily on input line 20.
-LaTeX Info: Redefining \rmfamily on input line 38.
-LaTeX Info: Redefining \sffamily on input line 38.
-LaTeX Info: Redefining \ttfamily on input line 38.
+LaTeX Info: Redefining \rmfamily on input line 19.
+LaTeX Info: Redefining \sffamily on input line 19.
+LaTeX Info: Redefining \ttfamily on input line 19.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 122.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 90.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 90.
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 90.
  ) 
 Here is how much of TeX's memory you used:
- 22774 strings out of 481342
- 424118 string characters out of 5925286
- 789246 words of memory out of 5000000
- 39472 multiletter control sequences out of 15000+600000
- 533977 words of font info for 80 fonts, out of 8000000 for 9000
- 264 hyphenation exceptions out of 8191
- 60i,9n,101p,1281b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 21169 strings out of 479819
+ 392007 string characters out of 5895847
+ 720083 words of memory out of 5000000
+ 38051 multiletter control sequences out of 15000+600000
+ 536296 words of font info for 65 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 60i,9n,101p,927b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on cv.pdf (2 pages).
+Output written on cv.pdf (1 page).

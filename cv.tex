@@ -10,9 +10,7 @@
 \usepackage{fontspec}
 
 \setdefaultlanguage{english}
-\setotherlanguage{farsi}
 
-\newfontfamily\arabicfont[Script=Arabic]{NotoNaskhArabic}
 
 % \usepackage{xeCJK}
 % \setCJKmainfont{SimSun}
@@ -39,84 +37,54 @@ GitHub: \href{https://github.com/Vuwij}{https://github.com/Vuwij}\\
 Email: \href{mailto:vuwij1@gmail.com}{vuwij1@gmail.com}\hfill
 Website: \href{http://vuwij.github.io}{http://vuwij.github.io}
 
-%%\hrule
-\section*{Education}
-\years{2020 Sept -\\Current}\textbf{Electrical and Computer Engineering}
-\hfill University of Toronto\\
-\emph{Masters of Computer Engineering in Robotics and System Controls}\\
-\small{\textbf{Relavant Courses:} Convex Optimization, Robust and Optimal Control, State Estimation of Aerospace Vehicles}\\
-
-\years{2015 Sept -\\ 2020 April}\textbf{Electrical and Computer Engineering} \hfill University of Toronto\\
-\emph{Bachelor of Computer Engineering with Honours, Minor in Robotics and Business}\\
-\small{
-	3rd Year GPA: 3.75\hspace{1em}
-	4th Year GPA: 3.91\hspace{1em}\\
-Dean's Honours List x8, NSERC USRA Summer Research Award, Gordon Slemon Award for best 4th year project
-}
-\small{\textbf{Relevant Courses:} \\
-	\textit{Robotics}: Robot Modeling and Control, Control Systems (Classic, Modern, Discrete), Differential Geometry\\
-	\textit{AI}: Inference Algorithms and Machine Learning, Probabilistic Reasoning, Introduction to AI}
 
 %%\hrule
-
-\section*{Technical Skills}
-\textbf{Programming Languages:} Python, C/C++, MATLAB, C\#, Mathematica, \LaTeX\\[0.2em]
-\textbf{Software:} ROS, Docker, Django, OpenCV, Tensorflow, Unity Engine\\[0.2em]
-\textbf{Languages:} English (Native), 中文 (Native), 日本語 (B1), Français (B1), \begin{farsi}فارسی\end{farsi} (B2)
-%%\hrule
-\section*{Work and Research Experience}\noindent
-	\years{2020 May -\\ Current}\textbf{Software Engineer - Robotics} \hfill 	\href{https://www.rapyuta-robotics.com}{Rapyuta Robotics}
+\section*{Selected Experience}\noindent
+	\years{2020 May -\\ Current}\textbf{Robotics Software Team Lead} \hfill 	\href{https://www.rapyuta-robotics.com}{Rapyuta Robotics}
 	\begin{itemize}
-	\item Squad Scrum Master and lead developer on the Global World Model, a web server that provides a interface to \href{https://www.rapyuta-robotics.com/amr-starter-package/}{IO-AMR}, a generic ROS based framework compatible with various autonomous robots
+	\item Leading a team of 8 Software Engineers and Interns for the software development of a new warehouse robotic bin storage project and demoed successfully to customers
+	\item Developed the overall software architecture and wrote most of the control, state machine, code for the robotic bin storage system.
+	\item Used A* and some basic AI to optimize robot navigation in 3D structured space
 	\item Dockerized, packaged and released IO-AMR robotics software to \href{https://www.hitachi.com/}{Hitachi}'s AI forklift system.
-	\item Currently architecting the new \href{https://global.toyota/en/}{Toyota}'s autonomous car manufacturing tool delivery robot system
 	\end{itemize}
 
-	\years{2018 May - \\2020 August}\textbf{Tailsitter Vision/Control Research Thesis (\href{https://github.com/utiasSTARS/PhoenixDrone}{Github})} \hfill \href{http://www.starslab.ca}{University of Toronto Institute for Aerospace Studies}
+	\years{2016 Sept - \\ Current}\textbf{Founder and Software Lead} (\href{https://github.com/utra-robosoccer/soccerbot} {Github}, \href{https://utra-robosoccer.github.io/}{Website}) \hfill \emph{\href{https://utra-robosoccer.github.io/}{University of Toronto Robosoccer Team}}
 	\begin{itemize}
-	\item Developed and extended calibration, localization, and navigation software of multi-tailsitter-type drones that docks onto other drones mid-flight in simulation. Used Apriltag bundle detection to obtain relative localization to another tailsitter drone. \\Supervisor: \href{http://stars.utias.utoronto.ca/~jkelly/}{Professor Jonathan Kelly}.
+		\item In 2017, formed a team of 20-30 talented members for the \href{https://www.robocup.org/}{Robocup}'s humanoid kid-size competition with faculty advisors are \href{http://stars.utias.utoronto.ca/~jkelly/}{Prof. Jonathan Kelly} and \href{http://www.utias.utoronto.ca/research/space-robotics/}{Prof. D’Eleuterio}. The repository currently has over 100 stars.
+		\item Created a walking engine using trajectory generation, classic control and IMU feedback using a PID feedback controller
+		\item Used an ICP algorithm to get visual odometry from camera transformations of field lines detected using OpenCV and used it in a UKF to get optimal robot localization in a soccer field
+		\item Attended in the 2018 humanoid kid-sized Robocup league in Montreal, 2021 humanoid kid-sized virtual Robocup league, and the 2022 humanoid kid-sized Robocup league in Thailand
 	\end{itemize}
 
-	\years{2019 Sept - \\ 2019 May}\textbf{A Walking Acrobot  Capstone Project (\href{https://github.com/Vuwij/acrobot}{Github})} \hfill \href{https://www.control.utoronto.ca/}{University of Toronto System Controls Laboratory}
+	\years{2018 May - \\2020 August}\textbf{Tailsitter Vision/Control Research Thesis (\href{https://github.com/utiasSTARS/PhoenixDrone}{Github})} \hfill \href{http://www.starslab.ca}{UTIAS}
 	\begin{itemize}
-		\item In a team of 4 built a two legged acrobotic robot controlled with a single brushless DC motor that uses guidance via virtual holonomic constraints involving impacts.
-		\item Succeeded in taking 2.5 steps on the actual built robot and 10+ steps in simulation.
-		\item Won the Gordon Slemon Award (\$1000) for excellence in Engineering Design\\ Supervisor: \href{https://www.control.utoronto.ca/~maggiore/}{Professor Manfredi Maggiore}.
-	\end{itemize}
-
-	\years{2018 Sept - \\ 2019 Sept}\textbf{Software Engineering Intern - Robotics} \hfill \href{https://www.rapyuta-robotics.com}{Rapyuta Robotics}
-	\begin{itemize}
-		\item Created the simulation of a multi-robot warehouse pick assist system. These autonomous robots coordinate with workers to fulfill orders retrieved from an inventory management system. Used dockerized cloud infrastructure to simulate 30 robots communicating and fulfilling orders on the cloud.
-		\item Worked with the ALICA robot state machine engine, and used Google ORTools to optimize and simulate human movement to find the optimum human movement which reduces human movement time.
-	\end{itemize}
-
-%	\years{2017 May -\\ 2017 Sept}\textbf{Student Researcher} \hfill \href{https://sunnybrook.ca/content/?page=schulich-heart-centre}{Sunny Schulich Heart Program}
-%	\begin{itemize}
-%		\item Worked on a new ultra-wideband radar device to assist with MRI imaging \href{https://github.com/Vuwij/CPRadar}{(Matlab)}
-%		\item Presented research findings at the \href{https://www.facebook.com/UnERD2019/?ref=py_c}{University of Toronto Undergraduate Research Conference (UnERD)}
-%	\end{itemize}
-%
-%	\years{2016 May -\\ 2017 Dec}\textbf{Software Engineering Intern} \hfill \href{https://www.bell.ca/}{Bell Business Markets}
-%	\begin{itemize}
-%		\item Worked on deployment and operations of a new telephone banking system in Java
-%	\end{itemize}
-\pagebreak
-\section*{Extracurricular Activities and Projects}
-
-\subsection*{Engineering Student Groups}\noindent
-
-	\years{2016 Sept - \\ Current}\textbf{Founder and Software Lead} (\href{https://github.com/utra-robosoccer/soccer_ws} {Github}, \href{http://utrahumanoid.ca/our-project/}{Website}) \hfill \emph{\href{http://www.utrahumanoid.ca}{University of Toronto Soccer Robot Team}}
-	\begin{itemize}
-		\item In 2017, formed a team of 20-30 talented members building a humanoid soccer robot for the \href{https://www.robocup.org/}{Robocup}. Our faculty advisors are \href{http://stars.utias.utoronto.ca/~jkelly/}{Prof. Jonathan Kelly} and \href{http://www.utias.utoronto.ca/research/space-robotics/}{Prof. D’Eleuterio}.
-		\item Created a walking engine using trajectory generation, classic control and IMU feedback
-		\item Used OpenCV to detect field lines, used detected fieldlines with \href{http://wiki.ros.org/amcl}{AMCL} to localize the robot.
-		\item Participated in the 2018 humanoid kid-sized Robocup league in Montreal
-		\item Participated in the 2021 humanoid kid-sized virtual Robocup league 
+	\item Funded by the NSERC USRA Summer Research Award, developed and extended calibration, localization, and navigation software of multi-tailsitter-type drones that docks onto other drones mid-flight in simulation. Used Apriltag bundle detection to obtain relative localization to another tailsitter drone. \\Supervisor: \href{http://stars.utias.utoronto.ca/~jkelly/}{Professor Jonathan Kelly}.
 	\end{itemize}
 	
-	\years{2016 Sept -\\ 2017 May}\textbf{Team Lead} \hfill \emph{\href{https://www.facebook.com/hackeracademy/}{Hacker Academy}}
-	\begin{itemize}
-		\item Created the challenge for the \href{https://www.facebook.com/groups/1126158850825448/}{DeepHealth Hackathon}, University of Toronto's first healthcare and machine learning hackathon. Around 80 graduate and undergraduate students attended the challenge.
-	\end{itemize}
+\section*{Technical Skills}
+\textbf{Programming Languages:} Python, C/C++, MATLAB, C\#, Mathematica, \LaTeX\\[0.2em]
+\textbf{Software:} ROS, Docker, Django, OpenCV, Tensorflow, Pytorch, Unity Engine\\[0.2em]
+\textbf{Languages:} English, Chinese, Japanese, Persian, Arabic, French
+
+%%\hrule
+\section*{Education}
+\textbf{Masters of Engineering in Robotics and Systems Controls (Honours)}
+\hfill University of Toronto\\
+Courses: Convex Optimization, Robust and Optimal Control, State Estimation\\
+Thesis: UKF Localization with Field Lines Observations for Humanoid Robotic Soccer\\
+
+
+\textbf{Bachelor of Computer Engineering (with honours)} \hfill University of Toronto\\
+\emph{with minor in Robotics and Business}\\
+\small{
+	3rd Year GPA: 3.75\hspace{1em}
+	4th Year GPA: 3.91\hspace{1em}
+	Dean's Honours List x8
+}\\
+Final Year Project: A Walking Acrobot - Winner of the Gordon Slemon Award (\$1000) for top 4th year project
+
+%%\hrule
+
+
 
 \end{document}
